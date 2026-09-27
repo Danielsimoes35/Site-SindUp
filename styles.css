@@ -180,3 +180,35 @@ footer { padding: 29px 0; border-top: 1px solid var(--line); background: var(--s
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* Somente os botões de contato usam o símbolo e as cores do WhatsApp. */
+.header-cta, .button-primary, .button-whatsapp, .floating-whatsapp {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  min-height: 52px;
+  padding: 0;
+  gap: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 5px 14px #075e5440;
+  font-size: 0;
+  line-height: 0;
+  flex: none;
+}
+.header-cta span { display: none; }
+.header-cta svg, .button-primary svg, .button-whatsapp svg, .floating-whatsapp svg {
+  width: 27px;
+  height: 27px;
+  fill: currentColor;
+  stroke: none;
+  flex: none;
+}
+.header-cta:hover, .button-primary:hover, .button-whatsapp:hover, .floating-whatsapp:hover {
+  background: #1ebe5d;
+}
+@media (max-width: 560px) {
+  .hero-actions { display: grid; justify-items: start; }
+}
