@@ -86,3 +86,26 @@ verifique o domínio para que ninguém mais possa usá-lo no GitHub Pages.
    é cache: ele atualiza depois de algum tempo.
 3. Opcional: cadastre o site no Google Search Console e envie o
    `https://sindiup.com.br/sitemap.xml` para o Google indexar mais rápido.
+
+
+## Páginas legais
+
+- `/politica-de-privacidade` → `politica-de-privacidade.html`
+- `/termos-de-uso` → `termos-de-uso.html`
+- `/exclusao-de-dados` → `exclusao-de-dados.html`
+
+As páginas contêm HTML estático, são públicas e independem de login ou JavaScript.
+O GitHub Pages atende as URLs sem extensão diretamente; não é necessário um
+roteador da aplicação. Seus estilos estão em `legal.css`; `styles.css` contém
+apenas a adição dos links legais ao rodapé compartilhado. O sitemap inclui as
+três URLs canônicas.
+
+O contato de privacidade usa o WhatsApp oficial já divulgado no site:
+`https://wa.me/5513996556915`. Ao atualizar o contato, revise também as páginas legais.
+Não adicione dados societários, prazos ou garantias técnicas sem confirmação.
+
+Após uma publicação, confira as três URLs em HTTPS, sem sessão autenticada:
+resposta HTTP 200, conteúdo completo, recursos carregados, links do rodapé,
+menu e ausência de rolagem horizontal em telas de 320 px, 390 px e desktop.
+A página de exclusão é uma URL de instruções para o titular, não um endpoint de
+callback de exclusão automática de dados.
