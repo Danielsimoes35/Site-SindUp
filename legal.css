@@ -1,12 +1,5 @@
 /* Apenas as páginas legais usam a tipografia e as cláusulas deste arquivo. */
-@font-face {
-  font-family: 'Italiana';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/assets/fonts/italiana-regular.woff2') format('woff2');
-}
-.legal-shell { max-width: 880px; font-family: 'Italiana', Georgia, 'Times New Roman', serif; }
+.legal-shell { max-width: 880px; font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; }
 .legal-intro { padding: 48px 0 28px; }
 .legal-back { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 22px; color: var(--green); font-size: 18px; font-weight: 600; }
 .legal-back:hover { text-decoration: underline; text-underline-offset: 4px; }

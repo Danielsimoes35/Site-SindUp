@@ -115,11 +115,10 @@ callback de exclusão automática de dados.
 
 Os três documentos usam cláusulas e parágrafos com numeração explícita em HTML.
 O texto dos parágrafos é justificado, com hifenização em português e tamanhos
-de 20 px no mobile e 22 px no desktop. A fonte Italiana fica hospedada em
-`assets/fonts/italiana-regular.woff2`, acompanhada da licença original em
-`assets/fonts/italiana-OFL.txt`. Sua origem é o Google Fonts (Santiago Orozco;
-SIL Open Font License 1.1). O preload e os estilos são exclusivos das páginas
-legais; os estilos globais e a página inicial não são alterados.
+de 20 px no mobile e 22 px no desktop. A fonte prioritária é Segoe UI,
+com fontes nativas do sistema como alternativa quando ela não está instalada.
+Os estilos são exclusivos das páginas legais; os estilos globais e a página
+inicial não são alterados. A fonte Italiana não é carregada por essas páginas.
 
 Ao revisar o conteúdo, preserve os direitos dos titulares, o isolamento dos
 condomínios, o consentimento opcional de WhatsApp exclusivo de Encomendas e os
