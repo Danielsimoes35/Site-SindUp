@@ -109,3 +109,19 @@ resposta HTTP 200, conteúdo completo, recursos carregados, links do rodapé,
 menu e ausência de rolagem horizontal em telas de 320 px, 390 px e desktop.
 A página de exclusão é uma URL de instruções para o titular, não um endpoint de
 callback de exclusão automática de dados.
+
+
+### Tipografia e redação dos documentos legais
+
+Os três documentos usam cláusulas e parágrafos com numeração explícita em HTML.
+O texto dos parágrafos é justificado, com hifenização em português e tamanhos
+de 20 px no mobile e 22 px no desktop. A fonte Italiana fica hospedada em
+`assets/fonts/italiana-regular.woff2`, acompanhada da licença original em
+`assets/fonts/italiana-OFL.txt`. Sua origem é o Google Fonts (Santiago Orozco;
+SIL Open Font License 1.1). O preload e os estilos são exclusivos das páginas
+legais; os estilos globais e a página inicial não são alterados.
+
+Ao revisar o conteúdo, preserve os direitos dos titulares, o isolamento dos
+condomínios, o consentimento opcional de WhatsApp exclusivo de Encomendas e os
+canais reais de atendimento. Condições de terceiros e requisitos legais não
+constituem garantia de entrega de mensagens ou de disponibilidade ininterrupta.
