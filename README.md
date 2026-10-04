@@ -121,6 +121,11 @@ Os estilos são exclusivos das páginas legais; os estilos globais e a página
 inicial não são alterados. A fonte Italiana não é carregada por essas páginas.
 
 Ao revisar o conteúdo, preserve os direitos dos titulares, o isolamento dos
-condomínios, o consentimento opcional de WhatsApp exclusivo de Encomendas e os
-canais reais de atendimento. Condições de terceiros e requisitos legais não
+condomínios, a autorização opcional de WhatsApp exclusiva de Encomendas e os
+canais reais de atendimento. A coleta e o fornecimento dos dados dos moradores,
+inclusive os números de WhatsApp, são de responsabilidade do contratante.
+Cabe a ele obter e manter a comprovação da autorização para mensagens fora da
+plataforma, sem depender de aceite manual do morador no SindiUp, e comunicar
+atualizações e revogações. O simples cadastro do número não autoriza envios.
+Condições de terceiros e requisitos legais não
 constituem garantia de entrega de mensagens ou de disponibilidade ininterrupta.
