@@ -212,3 +212,14 @@ footer { padding: 29px 0; border-top: 1px solid var(--line); background: var(--s
 @media (max-width: 560px) {
   .hero-actions { display: grid; justify-items: start; }
 }
+
+
+/* Links legais discretos, apenas no rodapé. */
+.footer-legal { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 20px; margin-top: 18px; color: #566b70; font-size: 11px; line-height: 1.5; }
+.footer-legal a { display: inline-flex; align-items: center; min-height: 40px; padding: 4px 0; }
+.footer-legal a + a::before { content: "·"; margin-right: 20px; color: #7b8988; }
+.footer-legal a:hover { color: var(--navy); text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 560px) {
+  .footer-legal { column-gap: 16px; margin-top: 14px; }
+  .footer-legal a + a::before { display: none; }
+}
