@@ -15,7 +15,19 @@
     '/termos-de-uso': ['/termos-de-uso', 'Termos de Uso | SindiUp'],
     '/termos-de-uso.html': ['/termos-de-uso', 'Termos de Uso | SindiUp'],
     '/exclusao-de-dados': ['/exclusao-de-dados', 'Exclusão de Dados | SindiUp'],
-    '/exclusao-de-dados.html': ['/exclusao-de-dados', 'Exclusão de Dados | SindiUp']
+    '/exclusao-de-dados.html': ['/exclusao-de-dados', 'Exclusão de Dados | SindiUp'],
+    "/encomendas": ["/encomendas.html", "Encomendas com WhatsApp e IA | SindiUp"],
+    "/encomendas.html": ["/encomendas.html", "Encomendas com WhatsApp e IA | SindiUp"],
+    "/cidac": ["/cidac.html", "CIDAC: atendimento condominial com IA | SindiUp"],
+    "/cidac.html": ["/cidac.html", "CIDAC: atendimento condominial com IA | SindiUp"],
+    "/prestadores": ["/prestadores.html", "Prestadores: registros de entrada e saída | SindiUp"],
+    "/prestadores.html": ["/prestadores.html", "Prestadores: registros de entrada e saída | SindiUp"],
+    "/chaves-e-materiais": ["/chaves-e-materiais.html", "Chaves e materiais: retiradas e devoluções | SindiUp"],
+    "/chaves-e-materiais.html": ["/chaves-e-materiais.html", "Chaves e materiais: retiradas e devoluções | SindiUp"],
+    "/whatsapp": ["/whatsapp.html", "WhatsApp: avisos e lembretes de encomendas | SindiUp"],
+    "/whatsapp.html": ["/whatsapp.html", "WhatsApp: avisos e lembretes de encomendas | SindiUp"],
+    "/inteligencia-artificial": ["/inteligencia-artificial.html", "IA na leitura de etiquetas e no CIDAC | SindiUp"],
+    "/inteligencia-artificial.html": ["/inteligencia-artificial.html", "IA na leitura de etiquetas e no CIDAC | SindiUp"]
   };
   const path = location.pathname === '/' ? '/' : location.pathname.replace(/\/$/, '');
   const page = pages[path];

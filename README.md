@@ -6,7 +6,9 @@ e já está configurado para o domínio **sindiup.com.br**.
 ## Estrutura
 
 ```
-index.html      página única (Soluções, Benefícios, Como funciona, contato)
+index.html      apresentação (Soluções, WhatsApp, IA, Benefícios, Como funciona, contato)
+encomendas.html, cidac.html, prestadores.html, chaves-e-materiais.html  módulos
+whatsapp.html, inteligencia-artificial.html  avisos, lembretes e apoio da IA
 styles.css      estilos
 assets/         logomarca, ícones e imagem de compartilhamento (WhatsApp/redes)
 favicon.ico     ícone da aba do navegador
@@ -148,9 +150,10 @@ continuam sendo enviados pelo código do site. Não habilite coleta de dados
 fornecidos pelo usuário, Google Signals ou recursos de publicidade para esta
 integração. Essas opções são configurações da propriedade, fora do código.
 
-As quatro páginas públicas usam o mesmo `analytics.js`, carregado com `defer`:
-início, Política de Privacidade, Termos de Uso e Exclusão de Dados, inclusive
-suas URLs `.html`. `page_view`, `session_start`, `first_visit` e engajamento
+As dez páginas públicas usam o mesmo `analytics.js`, carregado com `defer`:
+início, quatro módulos, WhatsApp, inteligência artificial e os três documentos
+legais. As URLs conhecidas ficam na lista pública do rastreador; os novos
+links usam `.html`. O ID configurado e os eventos existentes são preservados. `page_view`, `session_start`, `first_visit` e engajamento
 são métricas/eventos padrão do GA4; não há uma segunda visualização manual.
 
 | Evento | Ação | Origem |

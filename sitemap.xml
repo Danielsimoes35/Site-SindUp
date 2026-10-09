@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sindiup.com.br/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://sindiup.com.br/politica-de-privacidade</loc>
@@ -15,5 +15,29 @@
   <url>
     <loc>https://sindiup.com.br/exclusao-de-dados</loc>
     <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/encomendas.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/cidac.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/prestadores.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/chaves-e-materiais.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/whatsapp.html</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://sindiup.com.br/inteligencia-artificial.html</loc>
+    <lastmod>2026-10-08</lastmod>
   </url>
 </urlset>

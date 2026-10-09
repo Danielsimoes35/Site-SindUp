@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WhatsApp: avisos e lembretes de encomendas | SindiUp</title>
+  <meta name="description" content="Avisos automáticos de encomendas recebidas e lembretes para retiradas pendentes pelo WhatsApp, com intervalos configuráveis e horário de silêncio.">
+  <meta name="theme-color" content="#e8dfd2">
+  <link rel="canonical" href="https://sindiup.com.br/whatsapp.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="SindiUp">
+  <meta property="og:title" content="WhatsApp: avisos e lembretes de encomendas | SindiUp">
+  <meta property="og:description" content="Avisos automáticos de encomendas recebidas e lembretes para retiradas pendentes pelo WhatsApp, com intervalos configuráveis e horário de silêncio.">
+  <meta property="og:url" content="https://sindiup.com.br/whatsapp.html">
+  <meta property="og:image" content="https://sindiup.com.br/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="/analytics-config.js"></script>
+  <script defer src="/analytics.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SindiUp",
+    "url": "https://sindiup.com.br/",
+    "logo": "https://sindiup.com.br/assets/sindiup-icon-256.png",
+    "slogan": "Tecnologia simples. Gestão tranquila.",
+    "description": "Plataforma para registrar e acompanhar encomendas, demandas dos moradores, prestadores, chaves e materiais no condomínio."
+  }
+  </script>
+</head>
+<body class="detail-page">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol><symbol id="i-building-2" viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol><symbol id="i-clipboard-check" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol><symbol id="i-key-round" viewBox="0 0 24 24"><path d="M2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4a6.5 6.5 0 1 0-4-4Z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></symbol><symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol><symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol><symbol id="i-message-square-text" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M13 8H7"/><path d="M17 12H7"/></symbol><symbol id="i-package-check" viewBox="0 0 24 24"><path d="m16 16 2 2 4-4"/><path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"/><path d="m7.5 4.27 9 5.15"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" x2="12" y1="22" y2="12"/></symbol><symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></symbol><symbol id="i-user-round-check" viewBox="0 0 24 24"><path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="m16 19 2 2 4-4"/></symbol></defs></svg>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand-link" href="/#inicio" aria-label="SindiUp — início">
+        <img src="assets/sindiup-brand-hd.png" alt="SindiUp" width="620" height="200">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="/#solucoes">Soluções</a>
+        <a href="/#beneficios">Benefícios</a>
+        <a href="/#como-funciona">Como funciona</a>
+        <a href="/#whatsapp">WhatsApp</a>
+        <a href="/#inteligencia-artificial">IA</a>
+      </nav>
+
+      <details class="mobile-menu">
+        <summary aria-label="Abrir menu de navegação"><span></span><span></span><span></span></summary>
+        <nav aria-label="Navegação no celular">
+          <a href="/#solucoes">Soluções</a>
+          <a href="/#beneficios">Benefícios</a>
+          <a href="/#como-funciona">Como funciona</a>
+          <a href="/#whatsapp">WhatsApp</a>
+          <a href="/#inteligencia-artificial">IA</a>
+        </nav>
+      </details>
+
+      <a class="header-cta" aria-label="Falar no WhatsApp" href="https://wa.me/5513996556915?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20SindiUp" target="_blank" rel="noopener noreferrer">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+        <span>Falar no WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="detail-hero">
+      <div class="shell">
+        <nav class="breadcrumbs" aria-label="Você está aqui"><a href="/">Início</a><span aria-hidden="true">/</span><span aria-current="page">WhatsApp</span></nav>
+        <div class="detail-hero-grid">
+          <div><span class="section-kicker">WhatsApp automático para encomendas</span><h1>Um aviso quando chega.<br><span>Um lembrete enquanto espera.</span></h1><p class="feature-lead">O SindiUp conecta o registro da portaria à informação que o morador recebe no celular. A automação é voltada às encomendas e aos destinatários habilitados.</p><div class="feature-link"><a class="text-link" href="#detalhes">Veja como funciona <span aria-hidden="true">↗</span></a></div></div>
+          <figure class="feature-photo"><img src="assets/condominio-moradores.webp" width="1100" height="1467" alt="Moradores consultam uma informação no celular na área comum do condomínio" fetchpriority="high"></figure>
+        </div>
+      </div>
+    </section>
+    <div class="detail-body section" id="detalhes"><div class="shell"><section class="detail-row"><div><span class="section-kicker">Aviso de recebimento</span><h2>A portaria registra. O morador é avisado.</h2></div><div><ul class="detail-points"><li><strong>Mensagem automática</strong>O registro do recebimento aciona o aviso pelo WhatsApp conforme a configuração do condomínio.</li><li><strong>Sem abrir o SindiUp para receber</strong>O destinatário habilitado recebe a mensagem no WhatsApp que já usa no dia a dia.</li></ul></div></section>
+<section class="detail-row"><div><span class="section-kicker">Lembretes de pendências</span><h2>Ajude a liberar espaço na portaria.</h2></div><div><ul class="detail-points"><li><strong>Intervalos configuráveis</strong>Os lembretes das encomendas ainda não retiradas podem ser configurados para intervalos de 4, 8 ou 12 horas.</li><li><strong>Até o registro da retirada</strong>Ao registrar a entrega ao morador, a encomenda deixa de participar dos próximos lembretes.</li><li><strong>Horário de silêncio</strong>Os lembretes não são enviados entre 21h e 8h. Mensagens suprimidas nesse período não se acumulam para um disparo na manhã seguinte.</li></ul></div></section>
+<section class="detail-row"><div><span class="section-kicker">Configuração do condomínio</span><h2>Envios para quem está habilitado.</h2></div><div><ul class="detail-points"><li><strong>Destinatários e configuração</strong>O condomínio mantém os destinatários e habilita o envio conforme sua operação.</li><li><strong>Autorização para receber mensagens</strong>O condomínio é responsável por obter as autorizações necessárias para o envio aos moradores.</li></ul><div class="feature-link"><a class="text-link" href="encomendas.html">Ver o fluxo completo de encomendas <span aria-hidden="true">↗</span></a></div></div></section>
+</div></div>
+    <nav class="detail-related" aria-label="Continue conhecendo o SindiUp"><div class="shell"><a class="text-link" href="encomendas.html">Módulo Encomendas <span aria-hidden="true">↗</span></a><a class="text-link" href="inteligencia-artificial.html">IA na leitura de etiquetas <span aria-hidden="true">↗</span></a></div></nav>
+    <section class="final-cta section">
+      <div class="shell cta-card">
+        <div class="cta-brandmark">
+          <img loading="lazy" decoding="async" src="assets/sindiup-icon-256.png" alt="" width="256" height="256">
+        </div>
+        <div class="cta-copy">
+          <span>Vamos conversar</span>
+          <h2>Veja o SindiUp no seu condomínio.</h2>
+          <p>Conte como sua equipe trabalha hoje. Mostramos os módulos e o caminho para começar.</p>
+        </div>
+        <a class="button button-whatsapp" aria-label="Conversar pelo WhatsApp" href="https://wa.me/5513996556915?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20SindiUp" target="_blank" rel="noopener noreferrer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Conversar pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="shell footer-inner">
+      <img loading="lazy" decoding="async" src="assets/sindiup-brand-hd.png" alt="SindiUp" width="620" height="200">
+      <p>© 2026 SindiUp. Tecnologia simples. Gestão tranquila.</p>
+      <a href="https://wa.me/5513996556915?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20SindiUp" target="_blank" rel="noopener noreferrer">Entre em contato</a>
+    </div>
+    <nav class="shell footer-legal" aria-label="Informações legais">
+      <a href="/politica-de-privacidade">Política de Privacidade</a>
+      <a href="/termos-de-uso">Termos de Uso</a>
+      <a href="/exclusao-de-dados">Exclusão de Dados</a>
+    </nav>
+    <nav class="shell footer-solutions" aria-label="Conheça o SindiUp">
+      <a href="encomendas.html">Encomendas</a><a href="cidac.html">CIDAC</a><a href="prestadores.html">Prestadores</a><a href="chaves-e-materiais.html">Chaves e materiais</a><a href="whatsapp.html">WhatsApp</a><a href="inteligencia-artificial.html">Inteligência artificial</a>
+    </nav>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5513996556915?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20SindiUp" target="_blank" rel="noopener noreferrer" aria-label="Falar com o SindiUp pelo WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+  <script>
+    document.querySelectorAll('.mobile-menu nav a').forEach(link => link.addEventListener('click', () => {
+      document.querySelector('.mobile-menu').open = false;
+    }));
+  </script>
+</body>
+</html>
